@@ -3,6 +3,8 @@ metabolomicsDB is a collection of three open-source command-line tools that when
 
 The output of these three tools can be used as the database file of MS_targeted repository.
 
+metabolomicsDB is an API that allows to load the database generated from the three previous tools. You just need to provide the database tab-separated file and next continue using the collection of metabolites from the static class metabolites.
+
 ## Run metabolomicsDB tools
 You might use the three attahced .exe files in order to run the tools.
 You will also find a sample_files directory under the directory of each tool.
