@@ -28,9 +28,9 @@ This tool takes as input the a single XML file or a collection of XML files (one
 
 ## Run compileMetaboliteDB
 ```
-[mono] compileMetaboliteDB.exe hmdb_tsv_file chebi_tsv_file duplicates_file corrections_file output_file single_multiple_xml_files_boolean
+[mono] compileMetaboliteDB.exe hmdb_tsv_file chebi_tsv_file duplicates_file output_file problem_file single_multiple_xml_files_boolean
 ```
-This tool takes as input the two files generated from the previous two steps we described (compileChEBIdata and compileHMDBdata). The next two files are given to resolve duplicates that are caused because of inaccurate cross-references between the public databases. The first of these two resolves such issues, while the next one forces resolving issues that cannot be determined. The output file is a tab-separated file. The last option should be always TRUE.
+This tool takes as input the two files generated from the previous two steps we described (compileChEBIdata and compileHMDBdata). The file is given to resolve duplicates that are caused because of inaccurate cross-references between the public databases. These cases are reported by the tool in the problem_file and the user should manually resolve them. The output file is a tab-separated file. The last option should be always TRUE.
 Samples of duplicates_file and corrections_file can be found under compileMetaboliteDB/sample_data. Please decompress the fles before using them.
 
 ## Citation
