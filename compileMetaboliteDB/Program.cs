@@ -8,7 +8,7 @@ namespace compileMetaboliteDB
         {
             if (args.Length == 0)
             {
-                Console.WriteLine("[mono] compileMetaboliteDB.exe hmdb_tsv_file chebi_tsv_file duplicates_file corrections_file output_file single_multiple_xml_files_boolean");
+                Console.WriteLine("[mono] compileMetaboliteDB.exe hmdb_tsv_file chebi_tsv_file duplicates_file output_file problem_file single_multiple_xml_files_boolean");
                 Console.WriteLine();
                 Console.WriteLine("This script combines the compiled HMDB database with the ChEBI database.");
                 Console.WriteLine();
@@ -16,7 +16,6 @@ namespace compileMetaboliteDB
                 Console.WriteLine("1. tsv file with compounds from HMDB as compiled by compileHMDBdata.exe");
                 Console.WriteLine("2. tsv file with compounds from ChEBI as compiled by compileChEBIdata.exe");
                 Console.WriteLine("3. tsv file with of manually resolved duplicates that have been detected from this script in a previous run");
-                Console.WriteLine("\t\tFormat: HMDB_ID alt_HMDB_ID CAS_ID alt_CAS_ID KEGG_ID ChEBI_ID Problematic_Metabolite");
                 Console.WriteLine("4. output database target tsv file");
                 Console.WriteLine("5. output tsv file with duplicates and problematic cases");
                 Console.WriteLine("6. boolean value denoting if the HMDB file comes from a single or multiple XML file(s)");

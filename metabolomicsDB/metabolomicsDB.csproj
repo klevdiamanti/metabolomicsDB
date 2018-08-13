@@ -50,6 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="sample_data\20171204_metabolites_db.tsv.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="exec\metabolomicsDB.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

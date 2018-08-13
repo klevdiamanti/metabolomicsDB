@@ -50,6 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="sample_data\20170827_hmdb_metabolites.tsv.zip" />
+    <None Include="sample_data\20171101_ChEBI_database.tsv.zip" />
+    <None Include="sample_data\20171205_duplicate_cases.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="exec\compileMetaboliteDB.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

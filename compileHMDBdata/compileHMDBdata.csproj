@@ -58,6 +58,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="sample_data\20160418_smpdb_compiled.tsv.zip" />
+    <None Include="sample_data\20170827_hmdb_metabolites.xml.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="exec\compileHMDBdata.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

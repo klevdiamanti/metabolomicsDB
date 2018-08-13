@@ -51,6 +51,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="sample_data\20171101_ChEBI.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="exec\compileChEBIdata.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
