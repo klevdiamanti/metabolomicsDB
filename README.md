@@ -36,4 +36,4 @@ This tool takes as input the two files generated from the previous two steps we 
 Samples of duplicates_file and corrections_file can be found under compileMetaboliteDB/sample_data. Please decompress the fles before using them.
 
 ## Citation
-Klev Diamanti, Marco Cavalli, Gang Pan, Maria João Pereira, Chanchal Kumar, Stanko Skrtic, Manfred Grabherr, Ulf Risérus, Jan W Eriksson, Jan Komorowski and Claes Wadelius (2018). "Intra and inter-individual metabolic profiling highlights carnitine and lysophosphatidylcholine pathways as key molecular defects in type-2 diabetes". Submitted.
+Klev Diamanti, Marco Cavalli, Gang Pan, Maria João Pereira, Chanchal Kumar, Stanko Skrtic, Manfred Grabherr, Ulf Risérus, Jan W Eriksson, Jan Komorowski and Claes Wadelius (2018). "Metabolic landscape of five tissues suggests new molecular defects in type-2 diabetes". Submitted.
